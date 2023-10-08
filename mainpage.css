@@ -9,7 +9,7 @@ body{
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(9, 9, 11, 0.8),rgba(4, 26, 30, 0.8)),url(images/background.jpg);
+    background-image: linear-gradient(rgba(9, 9, 11, 0.8),rgba(4, 26, 30, 0.8)),url(images/harsh1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -102,15 +102,15 @@ nav{
     text-shadow: 6px 6px 5px rgb(147, 132, 125);
 }
 .rows{
-    margin-top: 30px;
+    
     display: flex;
     flex-direction: row;
-    height: 300px;
+    
     
 }
 .course-col{
     flex-basis: 33%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     position: relative;
     overflow: hidden;
     margin: 10px;

@@ -26,18 +26,22 @@
         padding: 9px 5px;
     }
     .rows{
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
-        padding: 10px 0;
+        
     }
     .course-col{
         border-radius: 10px; 
-        
-        width: 100%;
-        max-width: 400px;
-
-        min-height: 200px;
+        width: 100%; /* Make the columns take up the full width */
+        display: block; /* Display them as blocks, one below the other */
+        margin: 10px 0;
+       min-height: 100px;
     }
+    .course-col img {
+        max-width: 100%; /* Set a maximum width for the images to avoid them being too small */
+        height: auto; /* Maintain the aspect ratio of the images */
+    }
+    
     #contact .card{
         width: 85%;
 
@@ -46,6 +50,10 @@
         width: 100%;
         
     }
+
+    /* .row  h1{
+        visibility: hidden;
+    } */
 }
         #unique-name {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -123,6 +131,10 @@ table, td, tr,th {
  p,ul,table{
     color: white;
 }
+
+.course-col{
+    box-sizing: border-box;
+}
     </style>
 </head>
 <body>
@@ -140,9 +152,9 @@ table, td, tr,th {
         
         </div>
         <div class="text-box">
-            <h2 class="text-decoration-underline">---Welcome to my portfolio---</h2><br><br>
+            <h2 class="text-decoration-underline">Welcome to my portfolio</h2><br><br>
             <h1 id="unique-name">I'm HARSHITHA</h1>
-            <p> A dedicated Computer Science student with a burning passion for web development.I'm a python enthusiast and interested in Django framework
+            <p style="color: #8dc5df;">WEB DEVELOPMENT | MACHINE LEARNING | DJANGO 
 
             </p>
             <a href="#contact" class="button">CONTACT ME</a>
@@ -203,7 +215,7 @@ table, td, tr,th {
         
         <div class="col-md-4">
             
-            <img src="images/profile.jpg" class="mt-5 img-fluid rounded-circle profile-pic" alt="Your Name" >
+            <img src="images/harsh3.jpg" class="mt-5 img-fluid rounded-circle profile-pic" alt="Your Name" >
         </div>
         
         <div class="col-md-8">
