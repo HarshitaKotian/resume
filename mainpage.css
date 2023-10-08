@@ -165,3 +165,14 @@ nav{
     padding-top: 30px;
 }
 
+table {
+    width: 100%;
+    max-width: 100%; /* Ensure the table doesn't exceed the viewport width */
+    table-layout: auto; /* Let the table automatically adjust column widths */
+}
+
+/* Apply these styles to table columns if needed */
+th, td {
+    word-break: break-all; /* Allow long words to break and prevent column width issues */
+    /* Additional styling for table cells as needed */
+}
